@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class='card-wrapper'>
+            <div class='card-wrapper-herobox'>
+                <p class='card-wrapper-herobox_id'>Id: </p>
+                <p class='card-wrapper-herobox_name'>Name: </p>
+                <div class='card-wrapper-herobox-stats'>
+                    <p class='card-wrapper-herobox-stats_stats'>Stats</p>
+                    <p class='card-wrapper-herobox-stats_combat'>Combat: </p>
+                    <p class='card-wrapper-herobox-stats_durability'>Durability: </p>
+                    <p class='card-wrapper-herobox-stats_intelligence'>Intelligence:</p>
+                    <p class='card-wrapper-herobox-stats_power'>Power: </p>
+                    <p class='card-wrapper-herobox-stats_speed'>Speed: </p>
+                    <p class='card-wrapper-herobox-stats_strength'>Strength: </p>
+                </div>
+                <form action="" method="post">
+                    <input class='name' type="text" name="name" placeholder='Введи имя персонажа:'>
+                    <input class='send_name' type="submit" value="Найти">
+                </form>
+                <div class="card-wrapper-image">
+                    <img src="https://www.superherodb.com/pictures2/portraits/10/100/55.jpg" name='image' class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

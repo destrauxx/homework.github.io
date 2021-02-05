@@ -1,0 +1,91 @@
+p {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 17.5%;
+}
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#99F2C8, #1F4037);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rockwell;
+    color: white;
+    font-size: 35px
+}
+.image {
+    position: absolute;
+    height: 59%;
+    width: 33%;
+    border-radius: 60px;
+    right: 16.3%;
+    top: 11.3%;
+}
+.card {
+    margin: 0;
+    padding: 0;
+    
+}
+.card-wrapper {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 84vh;
+    width: 71vw;
+    border-radius: 60px;
+    box-shadow: 10px 15px 40px 0px rgba(0, 0, 0, 1);
+    background: linear-gradient(#99F2C8, #1F4037);
+    
+}
+
+.card-wrapper-herobox_id {
+    top: 13%;
+}
+.card-wrapper-herobox_name {
+    top: 18.2%
+}
+.card-wrapper-herobox-stats_stats {
+    top: 33%
+}
+.card-wrapper-herobox-stats_combat {
+    top: 39%;
+}
+.card-wrapper-herobox-stats_durability {
+    top: 44.2%;
+}
+.card-wrapper-herobox-stats_intelligence {
+    top: 49.4%;
+}
+.card-wrapper-herobox-stats_power {
+    top: 54.6%;
+}
+.card-wrapper-herobox-stats_speed {
+    top: 59.8%;
+}
+.card-wrapper-herobox-stats_strength {
+    top: 65%;
+}
+
+.name {
+    position: absolute;
+    padding: 15px;
+    padding-right: 350px;
+    /* border-radius: 10px; */
+    border: white;
+    top: 78%;
+    left: 17.5%;
+}
+.send_name {
+    position: absolute;
+    top: 78%;
+    left: 64%;
+    appearance: none;
+    background-color: #292929;
+    color: white;
+    border-radius: 50px;
+    border: #292929;
+    padding: 15px 70px 15px 70px;
+}
